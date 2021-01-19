@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3046412B25B6314800CF2F6B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046412A25B6314800CF2F6B /* main.swift */; };
+		3046413425B6E02B00CF2F6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046413325B6E02B00CF2F6B /* User.swift */; };
+		3046413725B6E04700CF2F6B /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046413625B6E04700CF2F6B /* Role.swift */; };
+		3046413A25B6E05D00CF2F6B /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046413925B6E05D00CF2F6B /* Permission.swift */; };
+		3046413E25B6E08A00CF2F6B /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046413D25B6E08A00CF2F6B /* DataBase.swift */; };
+		3046414225B6E0E900CF2F6B /* CreateUserPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046414125B6E0E900CF2F6B /* CreateUserPermission.swift */; };
+		3046414525B6E10200CF2F6B /* addRoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046414425B6E10200CF2F6B /* addRoles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		3046412725B6314800CF2F6B /* TEST_PERMISSIONS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TEST_PERMISSIONS; sourceTree = BUILT_PRODUCTS_DIR; };
 		3046412A25B6314800CF2F6B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3046413325B6E02B00CF2F6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3046413625B6E04700CF2F6B /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		3046413925B6E05D00CF2F6B /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		3046413D25B6E08A00CF2F6B /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		3046414125B6E0E900CF2F6B /* CreateUserPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserPermission.swift; sourceTree = "<group>"; };
+		3046414425B6E10200CF2F6B /* addRoles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addRoles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,31 @@
 		3046412925B6314800CF2F6B /* TEST_PERMISSIONS */ = {
 			isa = PBXGroup;
 			children = (
+				3046413C25B6E07800CF2F6B /* DataBase */,
+				3046413225B6E01700CF2F6B /* Models */,
 				3046412A25B6314800CF2F6B /* main.swift */,
+				3046414125B6E0E900CF2F6B /* CreateUserPermission.swift */,
+				3046414425B6E10200CF2F6B /* addRoles.swift */,
 			);
 			path = TEST_PERMISSIONS;
+			sourceTree = "<group>";
+		};
+		3046413225B6E01700CF2F6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3046413325B6E02B00CF2F6B /* User.swift */,
+				3046413625B6E04700CF2F6B /* Role.swift */,
+				3046413925B6E05D00CF2F6B /* Permission.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3046413C25B6E07800CF2F6B /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				3046413D25B6E08A00CF2F6B /* DataBase.swift */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3046413E25B6E08A00CF2F6B /* DataBase.swift in Sources */,
+				3046413A25B6E05D00CF2F6B /* Permission.swift in Sources */,
+				3046413425B6E02B00CF2F6B /* User.swift in Sources */,
 				3046412B25B6314800CF2F6B /* main.swift in Sources */,
+				3046413725B6E04700CF2F6B /* Role.swift in Sources */,
+				3046414525B6E10200CF2F6B /* addRoles.swift in Sources */,
+				3046414225B6E0E900CF2F6B /* CreateUserPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
